@@ -30,3 +30,27 @@
         }
     }
 }
+
+.nav-merchandise {
+    background-color: #0282f9;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    .merchandise-object {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        .merchandise-link {
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            img {
+                height: 60px;
+                margin-right: 8px;
+            }
+        }
+    }
+}

@@ -20,5 +20,29 @@ Dc Comics | Homepage
         </div>
 
     </div>
+    <div class="nav-merchandise">
+        <div class="merchandise-object">
+            <a href="#" class="merchandise-link">
+              <img src="{{asset('/images/buy-comics-digital-comics.png')}}" alt="" />
+              <span>Digital comics</span>
+            </a>
+            <a href="#" class="merchandise-link">
+              <img src="{{asset('/images/buy-comics-merchandise.png')}}" alt="" />
+              <span>DC merchandise</span>
+            </a>
+            <a href="#" class="merchandise-link">
+              <img src="{{asset('/images/buy-comics-subscriptions.png')}}" alt="" />
+              <span>Subscription</span>
+            </a>
+            <a href="#" class="merchandise-link">
+              <img src="{{asset('/images/buy-comics-shop-locator.png')}}" alt="" />
+              <span>Comic shop locator</span>
+            </a>
+            <a href="#" class="merchandise-link">
+              <img src="{{asset('/images/buy-dc-power-visa.svg')}}" alt="" />
+              <span>DC power Visa</span>
+            </a>
+          </div>
+    </div>
 </main>
 @endsection

@@ -17,7 +17,6 @@
 .card-section {
   background-color: #1c1c1c;
 }
-
 .card-section .container-card {
   width: 80%;
   margin: 0 auto;
@@ -25,33 +24,52 @@
   flex-wrap: wrap;
   padding: 2em 0;
 }
-
 .card-section .container-card .card {
   width: calc(16.6666666667% - 1rem);
   margin-bottom: 3rem;
   margin-right: 1em;
   color: white;
 }
-
 .card-section .container-card .card img {
   width: 170px;
   height: 200px;
   margin-bottom: 1rem;
 }
-
 .card-section .container-card .card h4 {
   text-transform: uppercase;
+}
+
+.nav-merchandise {
+  background-color: #0282f9;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.nav-merchandise .merchandise-object {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.nav-merchandise .merchandise-object .merchandise-link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav-merchandise .merchandise-object .merchandise-link img {
+  height: 60px;
+  margin-right: 8px;
 }
 
 header {
   height: 120px;
 }
-
 header .header-top {
   height: 30px;
   background-color: #0282f9;
 }
-
 header .header-top .container {
   width: 80%;
   margin: 0 auto;
@@ -59,11 +77,9 @@ header .header-top .container {
   justify-content: flex-end;
   align-items: center;
 }
-
 header .header-top .container a {
   color: white;
 }
-
 header .header-bottom {
   height: 90px;
   width: 80%;
@@ -71,31 +87,25 @@ header .header-bottom {
   display: flex;
   align-items: center;
 }
-
 header .header-bottom .logo img {
   width: 70%;
 }
-
 header .header-bottom nav {
   width: 80%;
 }
-
 header .header-bottom nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .header-bottom nav ul li {
   list-style: none;
   margin-right: 8px;
 }
-
 header .header-bottom nav ul a {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 header .header-bottom .searchbar {
   height: 1.5rem;
   width: 120px;
@@ -103,7 +113,6 @@ header .header-bottom .searchbar {
   text-align: end;
   opacity: 0.8;
 }
-
 header .header-bottom .searchbar input {
   background-color: transparent;
   width: 70px;
@@ -112,9 +121,7 @@ header .header-bottom .searchbar input {
   font-size: 0.9rem;
   font-weight: bold;
 }
-
 header .header-bottom .searchbar input:focus {
   background-color: transparent;
   outline: none;
 }
-
