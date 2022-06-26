@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-})->name('homepage');
+    $array_header = config('navbar-header');
+    $data = [
+        'navbar-header' => $array_header
+    ];
+    return view('home', $data);
+})->name('home');
+
+Route::get('/', function () {
+    $comics = config('comics');
+    $data = [
+        'comics' => $comics
+    ];
+    return view('home', $data);
+})->name('home');

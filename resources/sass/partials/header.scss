@@ -1,0 +1,62 @@
+                header {
+                    height: 120px;
+                    .header-top {
+                        height: 30px;
+                        background-color: #0282f9;
+                        .container {
+                            width: 80%;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            a {
+                                color: white;
+                            }
+                        }
+                    }
+                    .header-bottom {
+                        height: 90px;
+                        width: 80%;
+                        margin: 0% auto;
+                        display: flex;
+                        align-items: center;
+                        .logo img {
+                            width: 70%;
+                        }
+                        nav {
+                            width: 80%;
+                            ul {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                li {
+                                    list-style: none;
+                                    margin-right: 8px;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                        .searchbar {
+                            height: 1.5rem;
+                            width: 120px;
+                            border-bottom: 2px solid blue;
+                            text-align: end;
+                            opacity: 0.8;
+                            input {
+                                background-color: transparent;
+                                width: 70px;
+                                border: none;
+                                text-align: end;
+                                font-size: 0.9rem;
+                                font-weight: bold;
+                                &:focus {
+                                    background-color: transparent;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }

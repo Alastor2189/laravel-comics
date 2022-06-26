@@ -1,48 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.jumbotron img {
-  height: 350px;
-  overflow: hidden;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
-}
-
-.card-section {
-  background-color: #1c1c1c;
-}
-
-.card-section .container-card {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2em 0;
-}
-
-.card-section .container-card .card {
-  width: calc(16.6666666667% - 1rem);
-  margin-bottom: 3rem;
-  margin-right: 1em;
-  color: white;
-}
-
-.card-section .container-card .card img {
-  width: 170px;
-  height: 200px;
-  margin-bottom: 1rem;
-}
-
-.card-section .container-card .card h4 {
-  text-transform: uppercase;
-}
-
 header {
   height: 120px;
 }
@@ -117,4 +72,3 @@ header .header-bottom .searchbar input:focus {
   background-color: transparent;
   outline: none;
 }
-

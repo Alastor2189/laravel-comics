@@ -1,0 +1,32 @@
+.jumbotron img {
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-section {
+    background-color: #1c1c1c;
+    .container-card {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em 0;
+        .card {
+            width: calc(100% / 6 - 1rem);
+            margin-bottom: 3rem;
+            margin-right: 1em;
+            color: white;
+            img {
+                width: 170px;
+                height: 200px;
+                margin-bottom: 1rem;
+            }
+            h4 {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
