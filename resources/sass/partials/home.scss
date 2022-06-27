@@ -1,9 +1,12 @@
-.jumbotron img {
+.jumbotron {
     height: 350px;
-    overflow: hidden;
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
+    img {
+        height: 350px;
+        overflow: hidden;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 }
 
 .card-section {

@@ -1,3 +1,7 @@
+.jumbotron {
+  height: 350px;
+}
+
 .jumbotron img {
   height: 350px;
   overflow: hidden;

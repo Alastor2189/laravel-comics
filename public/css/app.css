@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.jumbotron {
+  height: 350px;
+}
 .jumbotron img {
   height: 350px;
   overflow: hidden;
@@ -124,4 +127,84 @@ header .header-bottom .searchbar input {
 header .header-bottom .searchbar input:focus {
   background-color: transparent;
   outline: none;
+}
+
+.footer-top {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  overflow: hidden;
+}
+.footer-top .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-top .container .link-list {
+  display: flex;
+}
+.footer-top .container .link-list .link-footer {
+  margin-right: 25px;
+  color: white;
+}
+.footer-top .container .link-list .link-footer li {
+  list-style: none;
+  margin: 4px 0px 4px;
+}
+.footer-top .container .link-list .link-footer li a {
+  color: gray;
+  text-decoration: none;
+}
+.footer-top .container .logo-bg {
+  overflow: hidden;
+  width: 42%;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: -50px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom .container .sign-up {
+  color: white;
+  background-color: #303030;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  padding: 9px;
+  border: 3px solid #0282f9;
+}
+.footer-bottom .container .list-social h2 {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-size: 1.3em;
+  margin-right: 14px;
+}
+.footer-bottom .container .list-social li {
+  list-style: none;
+}
+
+.footer-bottom .list-social,
+.footer-bottom ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom .list-social li,
+.footer-bottom ul li {
+  margin: 6px;
 }
